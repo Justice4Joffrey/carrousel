@@ -1,0 +1,156 @@
+
+@font-face {
+    font-family: 'Orator';
+    src: url('fonts.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.25;
+    background-color: #f6f1eb
+}
+
+.main {
+    background-color: #f6f1eb
+}
+
+.main .container {
+    padding-top: 2rem
+}
+
+.main .content h1 {
+    font-family: "Orator";
+    color: #ec6608;
+    font-size: 1.4rem
+}
+
+.main .content .separator {
+    height: 0;
+    width: 60px;
+    border-bottom: 2px solid #ec6608;
+    margin: 1rem auto
+}
+
+.footer {
+    color: #ec6608
+}
+
+.text-orange {
+    color: #ec6608
+}
+
+.border-orange {
+    border: 2px solid #ec6608;
+    width: 80%;
+    margin: 1rem auto 1.5rem
+}
+
+a {
+    color: #ec6608;
+    text-decoration: none
+}
+
+a:hover, a:active {
+    color: #bb5106;
+    text-decoration: underline
+}
+
+a.text-dark {
+    color: var(--bs-body-color)
+}
+
+a.text-dark:hover, a.text-dark:active {
+    color: var(--bs-body-color)
+}
+
+.text-decoration-none {
+    text-decoration: none
+}
+
+.w-80px {
+    width: 80px
+}
+
+.btn {
+    border-radius: 0
+}
+
+.fs-7 {
+    font-size: .7rem
+}
+
+.fs-8 {
+    font-size: .65rem
+}
+
+.legal {
+    font-size: .55rem
+}
+
+@media (min-width: 768px) {
+    .px-md-6 {
+        padding-left: 3rem;
+        padding-right: 3rem
+    }
+}
+
+form .form-control {
+    border: 1px solid #ec6608
+}
+
+form label {
+    font-weight: normal
+}
+
+form label.required::after {
+    content: "*";
+    font-size: 1rem;
+    padding-left: .25rem;
+    vertical-align: top
+}
+
+form .g-recaptcha {
+    margin-bottom: 30px
+}
+
+form .g-recaptcha > div {
+    margin: 0 auto
+}
+
+form input.input-capitalize {
+    text-transform: capitalize
+}
+
+form input.input-uppercase {
+    text-transform: uppercase
+}
+
+form input.input-lowercase {
+    text-transform: lowercase
+}
+
+form .col-phone-country, form .col-phone-number {
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: .75rem;
+    padding-right: .75rem
+}
+
+form .col-phone-country.col-phone-country, form .col-phone-number.col-phone-country {
+    width: 37%;
+    padding-right: 5px
+}
+
+form .col-phone-country.col-phone-country select.form-control, form .col-phone-number.col-phone-country select.form-control {
+    padding: 6px
+}
+
+form .col-phone-country.col-phone-number, form .col-phone-number.col-phone-number {
+    width: 63%;
+    padding-left: 5px
+}
+
+/*# sourceMappingURL=client-8e8727bbd449ea677e984ae4121db8a0.js.map*/

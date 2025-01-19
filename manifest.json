@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Carrousel",
+  "version": "1.0",
+  "description": "A Chrome extension to make bag appointments easier.",
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "icons": {
+    "16": "dist/logo.png",
+    "48": "dist/logo.png",
+    "128": "dist/logo.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "dist/logo.png"
+  },
+  "host_permissions": [
+    "https://rendezvousparis.hermes.com/*"
+  ],
+  "background": {
+    "service_worker": "js/background.js"
+  }
+}
+
